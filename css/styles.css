@@ -43,9 +43,9 @@ footer{
     background-color: black;
     color: yellow;
 }
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 675px){
     img{
-        margin: 28px;
+        margin: 23px;
     }
     #btn{
         width: 325px;
