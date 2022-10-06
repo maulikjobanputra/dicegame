@@ -4,16 +4,17 @@ body{
     scroll-behavior: smooth;
     background-color: rgb(86, 82, 82);
     color:yellow;
-    text-align: center;
 }
 header{
     display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
-    width: 1100px;;
-    margin:50px auto;
+    margin-top:50px;
     font-size: 6rem;
+    text-align: center;
 }
 section{
     display: flex;
@@ -27,7 +28,12 @@ img{
 h2{
     text-align: center;
 }
-
+footer{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
 #btn{
     border: 2px solid black;
     width:200px;
