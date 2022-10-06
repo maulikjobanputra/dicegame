@@ -48,4 +48,7 @@ footer{
     img{
         margin: 28px;
     }
+    #btn{
+        width: 325px;
+    }
 }
