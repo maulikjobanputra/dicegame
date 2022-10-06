@@ -31,14 +31,13 @@ h2{
 footer{
     display:flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
 #btn{
     border: 2px solid black;
     width:200px;
     height: 50px;
-    margin: auto;
     font-size: 1.8rem;
     border-radius: 12px;
     background-color: black;
@@ -50,5 +49,6 @@ footer{
     }
     #btn{
         width: 325px;
+        font-size:1.3rem;
     }
 }
